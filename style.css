@@ -1,0 +1,34 @@
+
+.newDiv{
+
+
+
+  margin: 20px;
+
+  text-align: center;
+  display: flex;
+  color: white;
+ 
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: center;
+  position: absolute;
+  transform: translate(50%,0%);
+width: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.newDiv:hover{
+  background-color: red;
+  size: 100vh;
+}
